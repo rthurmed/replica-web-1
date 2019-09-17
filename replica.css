@@ -13,7 +13,8 @@ body {
 
 header,
 section,
-hr {
+hr,
+#inner-footer{
   max-width: 1000px;
   margin: auto;
 }
@@ -228,4 +229,111 @@ p {
 
 .social-media-laranja {
   background: orange;
+}
+
+/* Rodapé */
+
+footer {
+/*   height: 100px; */
+  background: rgb(200, 200, 200);
+}
+
+#inner-footer {
+  padding: 10px 0;
+}
+
+#footer-left-side {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  width: 50%;
+  margin-right: -10px;
+}
+
+#wrapper-logo-footer {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.footer-sites {
+  list-style: none;
+  padding: 0;
+  /*! margin-bottom: 10px !important; */
+}
+
+.footer-site {
+  float: left;
+}
+
+.footer-site::after {
+  content: "|";
+  margin: 0 10px;
+}
+
+.footer-site:last-of-type::after {
+  content: none;
+}
+
+.footer-site-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyright {
+  clear: both;
+  line-height: 3;
+  /*! margin-top: 10px; */
+}
+
+/* LOGO */
+
+/* #wrapper-logo-footer {
+  float: right;
+} */
+
+.logo {
+  height: 100px;
+  width: 160px;
+}
+
+.logo-footer {
+  float: right;
+}
+
+.logo-circle {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: orange;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+.logo-light-circle {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  top: -85px;
+  left: 60px;
+  height: 70px;
+  width: 70px;
+  background: rgba(255,255,0,0.4);
+  border-radius: 50%;
+}
+
+.logo-fancy-text {
+/*   display: inline-block; */
+/*   width: 150px; */
+  position: relative;
+  font-size: 14pt;
+  left: 15px;
+  top: 10px;
+  color: black;
+  font-weight: bold;
 }
