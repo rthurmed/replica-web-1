@@ -150,7 +150,7 @@ p {
 
 .check-list {
   padding-left: 25px;
-  list-style: none;
+  list-style: square;
 }
 
 .check-list li {
@@ -185,4 +185,47 @@ p {
 
 .portfolio-item:last-of-type {
   margin-right: 0;
+}
+
+/* Blog e redes */
+
+.blog-updates,
+.connect-with-us {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.blog-updates {
+  width: 75%;
+  padding-right: 20px;
+  margin-right: -6px;
+}
+
+.connect-with-us {
+  width: 25%;
+}
+
+.social-media {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 5px;
+  float: left;
+}
+
+.social-media-azul {
+  background: blue;
+}
+
+.social-media-ciano {
+  background: cyan;
+}
+
+.social-media-cinza {
+  background: grey;
+}
+
+.social-media-laranja {
+  background: orange;
 }
