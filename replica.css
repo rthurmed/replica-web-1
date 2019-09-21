@@ -333,7 +333,56 @@ footer {
   position: relative;
   font-size: 14pt;
   left: 15px;
-  top: 10px;
+  top: 16px;
   color: black;
+}
+
+/* Cabeçalho */
+
+header {
+  height: 120px;
+}
+
+.email {
+  position: relative;
+  top: 20px;
+  text-align: right;
+}
+
+.logo-header {
+  display: inline-block;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 0;
+  float: right;
+  display: inline-block;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 30px;
+}
+
+.menu-item:first-of-type {
+  padding-left: 0px; 
+}
+
+.menu-item:last-of-type {
+  padding-right: 0px; 
+}
+
+.menu-link {
+  color: orange;
   font-weight: bold;
+  text-decoration: none;
+}
+
+.active-menu-link {
+  color: black;
+}
+
+hr {
+  clear: both;
 }
