@@ -62,6 +62,7 @@ hr {
   line-height: 0.9;
   color: white;
   text-shadow: 1px 1px 1px #fa5e00;
+  margin: 0;
 }
 
 .action {
