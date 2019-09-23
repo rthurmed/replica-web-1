@@ -288,19 +288,33 @@ footer {
   /*! margin-top: 10px; */
 }
 
-/* LOGO */
-
-/* #wrapper-logo-footer {
-  float: right;
-} */
-
-.logo {
-  height: 100px;
-  width: 160px;
-}
-
 .logo-footer {
   float: right;
+}
+
+.logo-footer .logo-circle {
+  height: 90px;
+  width: 90px;
+}
+
+.logo-footer .logo-c {
+  font-size: 75px;
+}
+
+.logo-footer .logo-light-circle {
+  height: 60px;
+  width: 60px;
+  top: -20px;
+}
+
+.logo-footer .logo-fancy-text {
+  font-size: 12pt;
+}
+
+/* LOGO */
+
+#wrapper-logo-footer {
+  display: inline-block;
 }
 
 .logo-circle {
@@ -310,18 +324,19 @@ footer {
   background: orange;
   border-radius: 50%;
   text-align: center;
-  line-height: 100px;
+}
+
+.logo-c {
+  font-size: 85px;
+  font-weight: bold;
   color: white;
-  font-size: 80px;
-  font-weight: bolder;
 }
 
 .logo-light-circle {
   display: inline-block;
   position: relative;
-  z-index: 2;
-  top: -85px;
-  left: 60px;
+  top: -30px;
+  left: -40px;
   height: 70px;
   width: 70px;
   background: rgba(255,255,0,0.4);
@@ -329,12 +344,12 @@ footer {
 }
 
 .logo-fancy-text {
-/*   display: inline-block; */
-/*   width: 150px; */
+  display: inline-block;
   position: relative;
+  top: 22%;
+  left: 20%;
   font-size: 14pt;
-  left: 15px;
-  top: 16px;
+  font-weight: bold;
   color: black;
 }
 
